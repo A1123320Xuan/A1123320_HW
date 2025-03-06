@@ -1,0 +1,75 @@
+<html>
+
+<head> 
+<title>資管系烤</title> 
+<meta charset="utf-8">
+<style type="text/css">
+    .tg  {border-collapse:collapse;border-spacing:0;}
+    .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+      overflow:hidden;padding:10px 5px;word-break:normal;}
+    .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+      font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+    .tg .tg-g6d9{background-color:#96fffb;border-color:#9b9b9b;color:#000000;text-align:center;vertical-align:top}
+    .tg .tg-f8dz{background-color:#96fffb;color:#000000;text-align:left;vertical-align:top}
+    .tg .tg-ns2e{background-color:#96fffb;border-color:#329a9d;color:#000000;font-family:Arial, Helvetica, sans-serif !important;
+      text-align:center;vertical-align:top}
+    .tg .tg-mxux{background-color:#96fffb;border-color:#9b9b9b;color:#000000;font-family:"Arial Black", Gadget, sans-serif !important;
+      text-align:center;vertical-align:top}
+    </style>
+<body bgcolor="pink" text = "white">
+<center>
+<font face="標楷體">
+<h1>報名表單</h1>
+<HR width="100%" color="WHITE">
+<h2>~活動基本訊息~</h2>
+<br>
+
+<table width = "80%"class="tg"><thead>
+    <tr>
+      <th class="tg-mxux">時間</th>
+      <th class="tg-ns2e">3/13</th>
+    </tr></thead>
+  <tbody>
+    <tr>
+      <td class="tg-mxux">地點</td>
+      <td class="tg-mxux">操場旁烤肉區</td>
+    </tr>
+    <tr>
+      <td class="tg-g6d9">報名期限</td>
+      <td class="tg-g6d9">2/26 - 3/2</td>
+    </tr>
+    <tr>
+      <td class="tg-g6d9">繳費期限</td>
+      <td class="tg-g6d9">3/3 - 3/7</td>
+    </tr>
+    <tr>
+      <td class="tg-g6d9"><br>費用<br></td>
+      <td class="tg-g6d9">繳系費： 100元<br><br>未繳系費： 200元</td>
+    </tr>
+    </tbody>
+    </table>
+    <br>
+    <h2>資料填寫</h2><br>
+        <form action="process.php" method="post">
+        <label>是否參加：</label>
+        <input type="radio" id="yes" name="attendence" value="yes" />
+        <label for="yes">是</label>
+        <input type="radio" id="no" name="attendence" value="no" />
+        <label for="no">否</label><br /><br />
+        <label for="name">姓名：</label>
+        <input type="text" id="name" name="name" required /><br /><br />
+        <label for="id">學號：</label>
+        <input type="id" id="id" name="id" required /><br /><br />
+        <label>是否有繳系費：</label>
+        <input type="radio" id="yes" name="pay" value="yes" />
+        <label for="yes">是</label>
+        <input type="radio" id="no" name="pay" value="no" />
+        <label for="no">否</label><br /><br />
+        <button type="submit">報名</button>
+        <button type="reset">清除</button>
+    </form>
+</font>
+
+<br><h2><a href="A1123320_HW21.html" >返回上一頁</a><h2><br>
+</body>
+</html>
