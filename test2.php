@@ -9,7 +9,7 @@ $uWP = $_GET["uWP"];
 $uRG = $_GET["uRG"];
 $uSC = $_GET["uSC"];
 $uGD = $_GET["uGD"];
-$uIT[] = $_GET["uIT"];
+$uIT = $_GET["uIT"];
 echo "Your name is : ".$uNAME."<br>";
 echo "Your password is : ".$uPW."<br>";
 echo "Your email is : ".$uML."<br>";
@@ -21,6 +21,6 @@ echo "Your gender is : ".$uGD."<br>";
 echo "Your secret is : ".$uSC."<br>";
 echo "Your interest are : ";
 foreach ($uIT as $i){
-    echo $i." ";
+    echo $i."<br>";
 }
 ?>
