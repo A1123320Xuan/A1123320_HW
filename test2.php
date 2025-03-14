@@ -10,6 +10,8 @@ $uRG = $_GET["uRG"];
 $uSC = $_GET["uSC"];
 $uGD = $_GET["uGD"];
 $uIT = $_GET["uIT"];
+$uCT = $_GET["uCT"];
+$uCM = $_GET["uCM"];
 echo "Your name is : ".$uNAME."<br>";
 echo "Your password is : ".$uPW."<br>";
 echo "Your email is : ".$uML."<br>";
@@ -19,8 +21,10 @@ echo "Your webpage is : ".$uWP."<br>";
 echo "Your grade about the web page is : ".$uRG."<br>";
 echo "Your gender is : ".$uGD."<br>";
 echo "Your secret is : ".$uSC."<br>";
-echo "Your interest are : ";
+echo "Your interest are : "."<br>";
 foreach ($uIT as $i){
     echo $i."<br>";
 }
+echo "Your city is : ".$uCT."<br>";
+echo "Your comments:".nl2br(htmlentities($uCM));
 ?>
