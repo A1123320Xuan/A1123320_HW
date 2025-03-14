@@ -16,9 +16,20 @@
     <input type = "radio" name = "uGD" value = "female" required>female<br>
     <input type = "hidden" name = "uSC" value = "LOL" required >
     Please select yor gender :
-    <input type = "checkbox" name = "uIT[]" value = "sport" required>sport
-    <input type = "checkbox" name = "uIT[]" value = "music" required>music
-    <input type = "checkbox" name = "uIT[]" value = "painting" required>painting<br>
+    <input type = "checkbox" name = "uIT[]" value = "sport" >sport
+    <input type = "checkbox" name = "uIT[]" value = "music" >music
+    <input type = "checkbox" name = "uIT[]" value = "painting" >painting<br>
+    Please select your city:
+    <select name="uCT">
+    <option value="taipei">Taipei</option>
+    <option value="taichung">Taichung</option>
+    <option value="kaohsiung">Kaohsiung</option>
+    </select>
+    <br>
+    Please input your comments:<br>
+    <textarea cols="30" rows="10" name="uCM">
+    </textarea>
+    <br>
     <input type = "submit"><input type = "reset">
 </form>
 
